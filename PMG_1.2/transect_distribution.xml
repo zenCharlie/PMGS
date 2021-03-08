@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<transect_timing title="Transect Timing PMG " logfolder="/nw/hesm_nas/workdirs/rhaynes/mod_3/test/logs/" pmg_type="PMG1.2.1" >
+	<start_date year="1965" day="1" month="1"/>
+	<end_date year="2005" day="31" month="12"/>
+	<transects>
+		<transect title="Timing Deviation from Target Monthly Discharge as Percentage of Annual Discharge" run_name="enp1_enp1">
+			<nodes>
+				<node>
+					489,531
+				</node>
+				<node>
+					531,576
+				</node>
+				<node>
+					576,622
+				</node>
+				<node>
+					622,623
+				</node>
+				<node>
+					623,672
+				</node>
+				<node>
+					489,531,576,622,623,672
+				</node>
+			</nodes>
+			<nodes>
+				<node>
+					489,531
+				</node>
+				<node>
+					531,576
+				</node>
+				<node>
+					576,622
+				</node>
+				<node>
+					622,623
+				</node>
+				<node>
+					623,672
+				</node>
+				<node>
+					489,531,576,622,623,672
+				</node>
+			</nodes>
+			<target>
+				/nw/hesm_nas/projects/rsm/Contracts/Task_Order_#2/GFI/PMGs_RSM_SFWMM/15PMGs/10_PMGs_for_TO_#2/RSM/PMG_1_2.1_transectflow_timing/targets/uniformdist_18n18s_monthly.csv
+			</target>
+			<run_paths_files>
+				<path name="2012EC">
+					/nw/hesm_nas/projects/rsm/Contracts/Task_Order_#2/GFI/PMGs_RSM_SFWMM/15PMGs/10_PMGs_for_TO_#2/RSM/PMG_1_2.1_transectflow_timing/rsmgl_output/2012EC/wbbudget.nc
+				</path>
+				<path name="ECB">
+					/nw/hesm_nas/projects/rsm/Contracts/Task_Order_#2/GFI/PMGs_RSM_SFWMM/15PMGs/10_PMGs_for_TO_#2/RSM/PMG_1_2.1_transectflow_timing/rsmgl_output/ECB/wbbudget.nc
+				</path>
+			</run_paths_files>
+		</transect>
+	</transects>
+</transect_timing>
